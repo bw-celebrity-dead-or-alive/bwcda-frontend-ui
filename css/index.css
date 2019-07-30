@@ -198,9 +198,9 @@ footer {
   margin-top: 30px;
   border-top: 2px solid #320073;
 }
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 800px) {
   .container {
-    width: 799px;
+    width: 800px;
   }
   footer {
     width: 799px;
@@ -208,7 +208,7 @@ footer {
 }
 @media only screen and (max-width: 500px) {
   .container {
-    width: 499px;
+    width: 500px;
   }
   footer {
     width: 499px;
@@ -296,13 +296,13 @@ h3 {
 .bottom-content a:hover {
   color: grey;
 }
-@media only screen and (max-width: 799px) {
+@media only screen and (max-width: 800px) {
   .container {
-    width: 799px;
+    width: 800px;
   }
 }
-@media only screen and (max-width: 499px) {
+@media only screen and (max-width: 500px) {
   .container {
-    width: 499px;
+    max-width: 500px ;
   }
 }
