@@ -266,7 +266,6 @@ h3 {
 .pink p {
   padding: 40px;
 }
-
 .bottom-content {
   margin: 30px 0;
 }
@@ -280,7 +279,7 @@ h3 {
 }
 .bottom-content a:hover {
   color: grey;
-
+}
 button {
   background: #320073;
   border-radius: 25px;
@@ -292,7 +291,6 @@ button {
   /* identical to box height */
   text-align: center;
   color: #FFFFFF;
-
 }
 @media only screen and (max-width: 800px) {
   .container {
