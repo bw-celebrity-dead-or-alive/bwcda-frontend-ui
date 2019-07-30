@@ -138,12 +138,12 @@ body {
 }
 h1 {
   font-family: 'Bowlby One', cursive;
-  font-size: 4rem;
+  font-size: 5.5rem;
   color: #320073;
 }
 h2 {
   font-family: 'Rock Salt', cursive;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   padding-bottom: 10px;
 }
 h4 {
@@ -152,7 +152,7 @@ h4 {
 }
 p {
   line-height: 1.5;
-  font-size: 1.6rem;
+  font-size: 2rem;
   padding-bottom: 10px;
 }
 img {
@@ -185,6 +185,17 @@ nav a:hover {
 nav #login {
   color: #320073;
 }
+a .btn {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: white;
+  background-color: #320073;
+  padding: 20px 20px;
+  border-radius: 45%;
+}
+a:hover {
+  color: grey;
+}
 .container {
   width: 1000px;
   display: flex;
@@ -195,7 +206,28 @@ nav #login {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   top-margin: 30px;
+}
+.top-content h1 {
+  padding: 30px;
+}
+.top-content h2 {
+  padding-bottom: 30px;
+}
+.top-content p {
+  padding: 30px;
+}
+.top-content a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: white;
+  background-color: #320073;
+  padding: 20px 20px;
+  border-radius: 45%;
+}
+.top-content a:hover {
+  color: grey;
 }
 @media only screen and (max-width: 500px) {
   .container {
