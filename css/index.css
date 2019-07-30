@@ -136,19 +136,13 @@ html,
 body {
   font-family: 'Ropa Sans', sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Rock Salt', cursive;
-}
 h1 {
   font-family: 'Bowlby One', cursive;
   font-size: 4rem;
   color: #320073;
 }
 h2 {
+  font-family: 'Rock Salt', cursive;
   font-size: 2.2rem;
   padding-bottom: 10px;
 }
@@ -179,6 +173,7 @@ nav {
   width: 100%;
   padding: 30px 0;
   background-color: #EE1C42;
+  margin-bottom: 30px;
 }
 nav a {
   text-decoration: none;
@@ -192,6 +187,15 @@ nav #login {
 }
 .container {
   width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  top-margin: 30px;
 }
 @media only screen and (max-width: 500px) {
   .container {
