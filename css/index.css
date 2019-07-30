@@ -217,6 +217,7 @@ footer {
 }
 .top-content h2 {
   padding-bottom: 30px;
+  transform: rotate(3.04deg);
 }
 .top-content p {
   padding: 30px;
@@ -231,6 +232,15 @@ footer {
 }
 .top-content a:hover {
   color: grey;
+}
+h3 {
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  color: #320073;
 }
 .blue {
   display: flex;
@@ -256,6 +266,7 @@ footer {
 .pink p {
   padding: 40px;
 }
+
 .bottom-content {
   margin: 30px 0;
 }
@@ -269,6 +280,19 @@ footer {
 }
 .bottom-content a:hover {
   color: grey;
+
+button {
+  background: #320073;
+  border-radius: 25px;
+  font-family: Ropa Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+
 }
 @media only screen and (max-width: 800px) {
   .container {
