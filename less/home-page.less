@@ -46,7 +46,11 @@ h3 {
 
   color: #320073;
 }
-
+.middle-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .blue {
   display: flex;
@@ -89,17 +93,27 @@ h3 {
   }
 }
 
-.avatar{ 
+.avatar {
   border-radius: 50%;
   margin-top: 20px;
 }
 @media only screen and (max-width: 800px) {
-  .container {
+  .mobileContainer {
     width: 800px;
+    display: flex;
+    flex-direction: column;
+    .container{
+      max-width:800px;
+    }
   }
 }
 @media only screen and (max-width: 500px) {
-  .container {
+  .mobileContainer {
     max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    .container{
+      max-width:500px;
+    }
   }
 }

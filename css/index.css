@@ -166,17 +166,18 @@ img {
 }
 nav {
   display: flex;
+  background-color: #EE1C42;
   font-family: "Ropa Sans", sans-serif;
   font-size: 1.8rem;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
   width: 100%;
-  padding: 30px 0;
-  background-color: #EE1C42;
+  padding-right: 30px;
   margin-bottom: 30px;
   border-bottom: 2px solid #320073;
 }
 nav a {
+  padding: 30px 30px;
   text-decoration: none;
   color: white;
 }
@@ -185,6 +186,12 @@ nav a:hover {
 }
 nav #login {
   color: #320073;
+}
+@media only screen and (max-width: 500px) {
+  justify-content: space-between;
+}
+@media only screen and (max-width: 800px) {
+  justify-content: space-between;
 }
 footer {
   display: flex;
@@ -257,6 +264,11 @@ h3 {
   text-align: center;
   color: #320073;
 }
+.middle-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .blue {
   display: flex;
   width: 60%;
@@ -300,12 +312,22 @@ h3 {
   margin-top: 20px;
 }
 @media only screen and (max-width: 800px) {
-  .container {
+  .mobileContainer {
     width: 800px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mobileContainer .container {
+    max-width: 800px;
   }
 }
 @media only screen and (max-width: 500px) {
-  .container {
+  .mobileContainer {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mobileContainer .container {
     max-width: 500px;
   }
 }
